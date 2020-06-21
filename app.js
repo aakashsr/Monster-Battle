@@ -4,5 +4,10 @@ new Vue({
         playerHealth: 10,
         monsterHealth: 100,
         isRunning: false
+    },
+    methods: {
+        toggleGame: function () {
+            this.isRunning = true;
+        }
     }
 })
