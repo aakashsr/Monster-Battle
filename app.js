@@ -66,7 +66,7 @@ new Vue({
         },
 
         giveUp: function () {
-
+            this.isRunning = false;
         }
     }
 })
