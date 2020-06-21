@@ -8,6 +8,8 @@ new Vue({
     methods: {
         toggleGame: function () {
             this.isRunning = true;
+            this.playerHealth = 100;
+            this.monsterHealth = 100;
         }
     }
 })
